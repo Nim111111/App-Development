@@ -1,0 +1,121 @@
+/* Login.css */
+
+
+.login-container {
+    width: 850px;
+    height: 480px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0px solid #767373;
+    border-radius: 3px;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d314149a;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; 
+  }
+
+  .left {
+    background-image: url('./Volunteer.png'); /* Replace 'your-image-path.jpg' */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    margin-top: 10px 
+  }
+
+  .right{
+    
+  }
+
+  .login-background {
+    background-image: url('./reversedbg.png'); /* Replace 'your-image-path.jpg' with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  .radio-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Optional: Add margin or padding for spacing */
+  .radio-buttons label {
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  
+  .role-select label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    margin-bottom: 15px auto;
+    width:100%;
+    padding:5px;
+    flex-direction:row;
+    
+  }
+  
+  .input-field label {
+    display: flex;
+    
+  }
+  
+  .input-field input {
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #8a5454;
+    border-radius: 3px;
+    background-color: rgba(181, 49, 49, 0);
+  }
+  
+  .input-field input:hover{
+    border: 1px solid #d1c1c1e0;
+  }
+  
+  .submit-button {
+    text-align: center;
+    padding:20px;
+  }
+  
+  .submit-button button {
+    background-color: #888d92;
+    color: #fff;
+    border: none;
+    border-radius: 19px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width:100px;
+    transition: background-color 0.3s ease;
+  }
+
+  .submit-button button:hover {
+    background-color: #323334; /* Change the button color on hover */
+  }
+  
+  .error-message {
+  background-color: #e4dbdb00; /* Red background color */
+  color: #e7dede; /* White text color */
+  border-radius: 4px; /* Rounded corners */
+  padding: 8px 12px; /* Padding to increase visibility */
+  margin-top: 12px; /* Add some top margin to separate from other elements */
+  text-align: center; /* Center the text */
+  font-weight: bold; /* Make the text bold */
+  font-size: 14px; /* Adjust the font size */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

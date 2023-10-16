@@ -1,0 +1,100 @@
+/* Login.css */
+
+
+.login-container {
+    width: 850px;
+    height: 520px;
+    margin: 0 auto;    
+    border: 0px solid #767373;
+    border-radius: 3px;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d314149f;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; 
+  }
+
+  .leftt {
+    background-image: url('./Volunteer.png'); /* Replace 'your-image-path.jpg' */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    margin-top: 10px;;
+  }
+
+  .rightt{
+  }
+
+  .login-background {
+    background-image: url('./reversedbg.png'); /* Replace 'your-image-path.jpg' with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  
+  .role-select label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    margin-bottom: 15px auto;
+    width:100%;
+    padding:5px;
+    flex-direction:row;
+    
+  }
+  
+  .input-field label {
+    display: flex;
+    
+  }
+  
+  .input-field input {
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #8a5454;
+    border-radius: 3px;
+    background-color: rgba(181, 49, 49, 0);
+  }
+  
+  .input-field input:hover{
+    border: 1px solid #d1c1c1e0;
+  }
+  
+  .submit-button {
+    text-align: center;
+    padding:20px;
+  }
+  
+  .submit-button button {
+    background-color: #888d92;
+    color: #fff;
+    border: none;
+    border-radius: 19px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width:100px;
+    transition: background-color 0.3s ease;
+  }
+
+  .submit-button button:hover {
+    background-color: #323334; /* Change the button color on hover */
+  }
+  
+.pp
+{
+    text-decoration: none;
+}
